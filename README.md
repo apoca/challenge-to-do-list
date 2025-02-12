@@ -16,7 +16,9 @@ This project is a To-Do List application built as a challenge. It provides a RES
     - [To-Do Items](#to-do-items)
     - [Users](#users)
   - [Environment Variables](#environment-variables)
+  - [Docker Compose](#docker-compose)
   - [Testing](#testing)
+  - [Linting](#linting)
   - [License](#license)
 
 ### Folder Structure
@@ -109,7 +111,7 @@ This project is a To-Do List application built as a challenge. It provides a RES
 
 ## Environment Variables
 
-The following environment variables need to be set in your [.env](http://_vscodecontentref_/3) file:
+The following environment variables need to be set in your [.env](.env.example) file:
 
 - `DB_HOST`: Database host
 - `DB_PORT`: Database port
@@ -118,12 +120,27 @@ The following environment variables need to be set in your [.env](http://_vscode
 - `DB_PASS`: Database password
 - `JWT_SECRET`: Secret key for JWT
 
+## Docker Compose
+
+You can also run the application using Docker Compose. To do so, run the following command:
+
+```sh
+NODE_ENV=development docker-compose up
+```
+
+or production:
+
+```sh
+NODE_ENV=production docker-compose up   
+```
+
 ## Testing
 
 To run tests, use the following command:
 
 ```sh
 npm run test
+```
 
 ## Linting
 
