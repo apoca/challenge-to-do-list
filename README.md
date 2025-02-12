@@ -47,7 +47,7 @@ This project is a To-Do List application built as a challenge. It provides a RES
     npm install
     ```
 
-3. Create a [.env](http://_vscodecontentref_/1) file based on the [.env.example](http://_vscodecontentref_/2) file and configure your environment variables.
+3. Create a `.env` file based on the [.env.example](.env.example) file and configure your environment variables.
 
 4. Create a PostgreSQL database and run the migrations:
 
