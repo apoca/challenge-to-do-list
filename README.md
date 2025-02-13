@@ -86,6 +86,8 @@ This project is a To-Do List application built as a challenge. It provides a RES
 2. The server will start on `http://localhost:3000`.
 3. You can now make requests to the API using **swagger** `http://localhost:3000/docs` or Postman.
 
+![Image Description](swagger.png)
+
 ## API Endpoints
 
 ### Authentication
