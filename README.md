@@ -1,4 +1,4 @@
-# challenge-to-do-list# Challenge To-Do List
+# Challenge To-Do List
 
 [![Build Status](https://github.com/apoca/challenge-to-do-list/actions/workflows/deployment.yml/badge.svg)](https://github.com/apoca/challenge-to-do-list/actions)
 
@@ -6,7 +6,7 @@ This project is a To-Do List application built as a challenge. It provides a RES
 
 ## Table of Contents
 
-- [challenge-to-do-list# Challenge To-Do List](#challenge-to-do-list-challenge-to-do-list)
+- [Challenge To-Do List](#challenge-to-do-list)
   - [Table of Contents](#table-of-contents)
     - [Folder Structure](#folder-structure)
   - [Installation](#installation)
